@@ -10,7 +10,8 @@ int main()
 
     for (const string& word : msg)
     {
-        cout << word << " ";
+        cout << word << " \n";
+        system("pause");
     }
     cout << endl;
 }
